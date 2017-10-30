@@ -15,8 +15,9 @@
   justify-content: space-between;
   margin: 10px;
 }
+/* pickle pickle pickle */
 .masthead-logo img {
-  margin: 0px 10px 0px 0px;
+  margin-right: 10px;
 }
 .masthead ul {
   display: inline-block;
