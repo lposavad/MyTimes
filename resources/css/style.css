@@ -1,0 +1,28 @@
+.masthead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: MediumAquamarine;
+}
+.masthead-logo {
+  display: inline-flex;
+  min-width: max-content;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+}
+.masthead-logo img {
+  margin: 0px 10px 0px 0px;
+}
+.masthead ul {
+  display: inline-block;
+  justify-content: space-around;
+  margin: 0px 25px;
+}
+.masthead a {
+  margin: 10px;
+}
