@@ -1,29 +1,99 @@
+/* First, the masthead formats */
 .masthead {
   display: flex;
+  position: fixed;
   align-items: center;
-  justify-content: space-between;
+  height: 80px;
+  width: 100%;
+  z-index: 1;
   border-bottom: 1px solid black;
+  background-color: white;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  color: MediumAquamarine;
 }
 .masthead-logo {
-  display: inline-flex;
-  min-width: max-content;
+  display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin: 10px;
+  flex-grow: 1;
+  border: 1px solid black;
+  padding-left: 30px;
 }
-/* pickle pickle pickle */
 .masthead-logo img {
   margin-right: 10px;
 }
-.masthead ul {
-  display: inline-block;
-  justify-content: space-around;
-  margin: 0px 25px;
+.masthead-logo span {
+  color: MediumAquamarine;
 }
-.masthead a {
-  margin: 10px;
+.masthead nav {
+  padding-right: 40px;
+}
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+/* Now for the columns formatting */
+.content {
+  display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+div {
+  display: block;
+  border: 1px solid black;
+}
+.column.large {
+  width: 630px;
+}
+.column.medium {
+  width: 300px;
+}
+.column.small {
+  width: 240px;
+}
+.article {
+}
+.photo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.lead-story .image-content {
+  background-image: url(C:/Webprojects/MyTimes/resources/images/img-story-main.png);
+  width: 630px;
+  margin-top: 0;
+  font-size: 40px;
+  text-align: left;
+}
+.image-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  margin-top: 15px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+.articletext {
+  font-family: Georgia serif;
+  font-size: 17px;
+  color: black;
+}
+.story-1 .image-content {
+  background-image: url(C:/WebProjects/MyTimes/resources/images/img-story-1.png);
+}
+.story-2 .image-content {
+  background-image: url(C:/Webprojects/MyTimes/resources/images/img-story-2.png);
+}
+.story-3 .image-content {
+  background-image: url(C:/WebProjects/MyTimes/resources/images/img-story-3.png);
 }
